@@ -1,0 +1,14 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+/* ==================== Autocomplete Search Box Start ==================== */
+body{background: #262a2f;color: #333;}
+.search-box{width: 600px;background: #fff;margin: 200px auto 0;border-radius: 5px;}
+.search-box .row{display: flex;text-align: center;padding: 10px 20px;}
+.search-box .row input{flex: 1;height: 50px;background: transparent;border: 0;outline: 0;font-size: 18px;color: #333;}
+.search-box .row button{background: transparent;border: 0;outline: 0;}
+.search-box .row .search-btn{width: 25px;color: #555;font-size: 22px;cursor: pointer;}
+.search-box .row ::placeholder{color: #555;}
+.search-box .result-box ul{border: 1px solid #999;padding: 15px 10px;}
+.search-box .result-box ul li{list-style: none;border-radius: 3px;padding: 15px 10px;cursor: pointer;}
+.search-box .result-box ul li:hover{background: #e9f3ff;}
+.search-box .result-box{max-height: 300px;overflow-y: scroll;}
+/* ==================== Autocomplete Search Box End ==================== */
